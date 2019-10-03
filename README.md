@@ -1,14 +1,14 @@
-##Translate Speak
+<h2 >Translate Speak</h2>
 A mini application works as a speakable translator for Linux(Ubuntu). It is quite helpful when you face a foreign word (or a short sentence). It can give you the meaning and the pronunciation of that word instantly without having to open browser or your dictionary app, no matter where that word is showing up (on browser, pdf reader, terminal,...)
 
-##Usage
-
+<h2 >Usage</h2>
 1. Select a word using single/double click or sentence.
 2. Press your personal key shortcut. (see how to create it in [Installation](#Installation))
 
 You will get a push notification showing the translated text, the speech of that word and that word will be stored in a text file named *searches.txt*
 
-##Supported languages
+
+<h2 >Usage</h2>
 Every language which is supported by Google Translate API (auto detect)
 
 <h2 id="Installation">Installation</h2>
@@ -61,6 +61,7 @@ Shortcut : set what your want
 
 
 
-##References
+<h2 >References</h2>
+
 https://websetnet.net/translate-text-select-linux-desktop-keyboard-shortcut-notifications/
 https://elinux.org/RPi_Text_to_Speech_(Speech_Synthesis)
