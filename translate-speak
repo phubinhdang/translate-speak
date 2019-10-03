@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+#get the last selected word (search)
+search=$(xsel -o)
+#get translated text and show it as push notification
+notify-send --icon=info "$search" "$(wget -U "Mozilla/5.0" -qO - "http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=de&dt=t&q=$(xsel -o | sed "s/[\"'<>]//g")" | sed "s/,,,0]],,.*//g" |awk -F '"' '{print $2}')";
+
+#get speech
+say() { local IFS=+;/usr/bin/mplayer -ao alsa -really-quiet -noconsolecontrols "http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=en"; }
+say $search
+
+#log searches
+file_path=/home/$USER/Documents/searches.txt;
+last_search=$(tail -n 1  $file_path)
+if [ "$search" != "$last_search" ];
+then   
+    echo $search >>  $file_path
+fi;
+
