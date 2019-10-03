@@ -21,9 +21,9 @@ Create a text file names *searches.txt* to store your searched words
 
 `sudo apt-get install libnotify-bin wget xsel`
 
-`git clone `
+`git clone https://github.com/phubinhdang/translate-speak.git`
 
-`cd translate-speak https://github.com/phubinhdang/translate-speak.git`
+`cd translate-speak `
 
 `gedit translate-speak` or `nano translate-speak`
 
