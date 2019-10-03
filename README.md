@@ -55,9 +55,10 @@ Copy it to /usr/bin
 Finally, set your shortcut for this script: 
 
 Go to keyboard -> add shortcut (symbol **+**) -> fill the fields as following: 
-Name : translate-speak
-Command : /usr/bin/translate-speak
-Shortcut : set what your want
+
+* Name : translate-speak
+* Command : /usr/bin/translate-speak
+* Shortcut : set what your want
 
 
 
