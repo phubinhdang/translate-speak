@@ -2,13 +2,14 @@
 A mini application works as a speakable translator for Linux(Ubuntu). It is quite helpful when you face a foreign word (or a short sentence). It can give you the meaning and the pronunciation of that word instantly without having to open browser or your dictionary app, no matter where that word is showing up (on browser, pdf reader, terminal,...)
 
 <h2 >Usage</h2>
+
 1. Select a word using single/double click or sentence.
 2. Press your personal key shortcut. (see how to create it in [Installation](#Installation))
 
 You will get a push notification showing the translated text, the speech of that word and that word will be stored in a text file named *searches.txt*
 
 
-<h2 >Usage</h2>
+<h2 >Supported languages</h2>
 Every language which is supported by Google Translate API (auto detect)
 
 <h2 id="Installation">Installation</h2>
