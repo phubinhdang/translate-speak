@@ -30,17 +30,18 @@ Create a text file names *searches.txt* to store your searched words
 A text editor should show up and you can change the following parameters as needed
 
  * For translation:
-<a href="">
+<p>
 http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=<span style="color:red">de</span>&dt=t
-</a>
+</p>
 
 
 After cloned this script will come with <span style="color:red">*de*</span> (German) as target language, which you change as your demand, such as vi for Vietnamese or fr for French.
 
 * For speech: 
-<a href="">
+<p >
 http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=<span style="color:red">en</span>
-</a>
+</p>
+
 You will get a speech in english (en) but you can change it base on your source language.
 
 See this [link](https://cloud.google.com/translate/docs/languages) for language code.
