@@ -30,28 +30,28 @@ Create a text file names *searches.txt* to store your searched words
 A text editor should show up and you can change the following parameters as needed
 
  * For translation:
-<p>
-http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=<span style="color:red">de</span>&dt=t
-</p>
+
+http://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=<span style="color:red">*de*</span>&dt=t
 
 
 After cloned this script will come with <span style="color:red">*de*</span> (German) as target language, which you change as your demand, such as vi for Vietnamese or fr for French.
 
 * For speech: 
-<p >
-http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=<span style="color:red">en</span>
-</p>
 
-You will get a speech in english (en) but you can change it base on your source language.
+http://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&q=$*&tl=<span style="color:red">*en*</span>
+
+You will get a speech in english (<span style="color:red">*en*</span>) but you can change it base on your source language.
 
 See this [link](https://cloud.google.com/translate/docs/languages) for language code.
 
 You can obviously turn off the speech as needed by commenting out the code for the part *#get speech* in the file.
 
 Make it executeable
+
 `sudo chmod a+x translate-speak`
 
 Copy it to /usr/bin
+
 `cp translate-speak /usr/bin`
 
 
